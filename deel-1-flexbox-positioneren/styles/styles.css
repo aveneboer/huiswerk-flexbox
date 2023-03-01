@@ -1,1 +1,56 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1 > ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.opdracht-2 > ul {
+    display: flex;
+
+}
+
+.uitgelijnd {
+    flex: 1;
+
+}
+
+.opdracht-3 > ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cen {
+    align-self: center;
+
+
+}
+
+.bot {
+    align-self: flex-end;
+}
+
+.opdracht-4 > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 10px;
+
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+div > ul {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: flex-end;
+
+
+
+}

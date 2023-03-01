@@ -1,1 +1,93 @@
-/*Schrijf hier jouw css*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 243, 217);
+}
+
+nav {
+    display: flex;
+    row-gap: 40px;
+    column-gap: 40px;
+    background-color: #1A293A;
+    color: #C3D7DC;
+    justify-content: space-between;
+    flex-basis: 50px;
+
+
+}
+
+.menu {
+    display: flex;
+    flex-basis: 400px;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-basis: 100px;
+
+}
+
+.home > p {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.blok {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+.titel {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.rood {
+    display: flex;
+    max-width: 280px;
+    height: 350px;
+    background-color: rgb(193, 110, 112);
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+
+
+}
+
+p {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 40px;
+
+
+}
