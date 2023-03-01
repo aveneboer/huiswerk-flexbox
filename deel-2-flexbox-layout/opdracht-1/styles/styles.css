@@ -1,1 +1,51 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    border: solid red;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 3;
+
+
+}
+
+article {
+    border: solid blue;
+    flex-basis: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+aside {
+    border: solid green;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+footer {
+    border: solid yellow;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+header {
+    border: solid purple;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+main {
+    border: solid black;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
